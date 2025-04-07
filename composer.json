@@ -1,0 +1,31 @@
+{
+    "name": "lnatpunblhna/in-textarea",
+    "description": "Description...",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/lnatpunblhna/in-textarea",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "your name",
+            "email": "your email"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lnatpunblhna\\InTextarea\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Lnatpunblhna\\InTextarea\\InTextareaServiceProvider",
+        "laravel": {
+            "providers": [
+                "Lnatpunblhna\\InTextarea\\InTextareaServiceProvider"
+            ]
+        }
+    }
+}
