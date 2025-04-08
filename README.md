@@ -9,10 +9,15 @@
 
 - 📝 新增 `textarea` 表单类型过滤器
 - 📐 自适应高度文本输入框
-- 🔍 支持两种匹配模式：模糊查询/精确匹配
+- 🔍 支持in模式匹配
 - ⚙️ 可自定义默认配置
 - 💻 完美兼容 Dcat Admin 原生样式
 
 ## 📦 安装方式
-
+### 1、通过composer安装
+```shell
+composer require lnatpunblhna/in-textarea
+```
+### 2、通过扩展管理页面安装
 下载zip压缩包，打开扩展管理页面，点击本地安装按钮选择提交，然后找到form-step行点击启用按钮。
+

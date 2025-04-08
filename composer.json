@@ -1,14 +1,14 @@
 {
     "name": "lnatpunblhna/in-textarea",
-    "description": "Description...",
+    "description": "Textarea Filter Extension for Dcat Admin",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "https://github.com/lnatpunblhna/in-textarea",
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "lnatpunblhna",
+            "email": "lnatpunblhna@gmail.com"
         }
     ],
     "require": {
