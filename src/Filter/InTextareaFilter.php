@@ -24,7 +24,7 @@ class InTextareaFilter extends CustomAbstractFilter
     public function split_string_with_comma(string $input): array
     {
         // 统一换行符为逗号
-        $input = str_replace(["\n", "\r", " "], ',', $input);
+        $input = str_replace(["\n", "\r", " ", "、"], ',', $input);
         // 替换中文逗号为英文逗号
         $input = str_replace('，', ',', $input);
         // 分割并处理元素
@@ -33,7 +33,7 @@ class InTextareaFilter extends CustomAbstractFilter
 
         // 添加单个元素长度校验
         if ($this->len != 0) {
-            foreach ($ids as $key=>$item) {
+            foreach ($ids as $key => $item) {
                 if (strlen($item) !== $this->len) {
                     unset($ids[$key]);
                 }
