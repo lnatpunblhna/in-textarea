@@ -5,3 +5,5 @@ composer.phar
 composer.lock
 *.project
 .idea/
+node_modules
+pnpm-lock.yaml
