@@ -11,6 +11,10 @@ class InTextarea extends Presenter
 {
     protected $view = 'lnatpunblhna.in-textarea::textarea';
 
+    public static $js = [
+        '@extension/lnatpunblhna/in-textarea/auto-resize-textarea.js',
+    ];
+
     protected $width = 12;
 
     protected $placeholder;

@@ -8,7 +8,10 @@ function bindAutoResizeTextareas() {
                 $this.css('height', '36px');
                 $this.css('height', this.scrollHeight + 'px');
             });
-            $this.trigger('input');
+
+            setTimeout(function () {
+                $this.trigger('input');
+            },100);
         });
     });
 }

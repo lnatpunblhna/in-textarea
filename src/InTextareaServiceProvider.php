@@ -13,7 +13,5 @@ class InTextareaServiceProvider extends ServiceProvider
 		parent::init();
 
         Filter::extend('inTextarea', InTextareaFilter::class);
-
-        \Dcat\Admin\Admin::requireAssets('@lnatpunblhna.in-textarea');
 	}
 }
